@@ -1,54 +1,314 @@
-[
-	{ "name" : "New Year's Day",                           "rule" : "January 1st"                           },
-	{ "name" : "Last Day of Kwanzaa",                      "rule" : "January 1st"                           },
-	{ "name" : "Epiphany",                                 "rule" : "January 6th"                           },
-	{ "name" : "Orthodox Christmas",                       "rule" : "January 7th"                           },
-	{ "name" : "Martin Luther King, Jr. Day",              "rule" : "Third Monday of January"               },
-	{ "name" : "Groundhog Day",                            "rule" : "February 2nd"                          },
-	{ "name" : "Valentine's Day",                          "rule" : "February 14th"                         },
-	{ "name" : "Washington's Birthday",                    "rule" : "Third Monday of February"              },
-	{ "name" : "International Women's Day",                "rule" : "March 8th"                             },
-	{ "name" : "Saint Patrick's Day",                      "rule" : "March 17th"                            },
-	{ "name" : "April Fools' Day",                         "rule" : "April 1st"                             },
-	{ "name" : "Earth Day",                                "rule" : "April 22nd"                            },
-	{ "name" : "Arbor Day",                                "rule" : "Last Friday of April"                  },
-	{ "name" : "May Day",                                  "rule" : "May 1st"                               },
-	{ "name" : "Star Wars Day",                            "rule" : "May 4th"                               },
-	{ "name" : "Cinco de Mayo",                            "rule" : "May 5th"                               },
-	{ "name" : "Mother's Day",                             "rule" : "Second Sunday of May"                  },
-	{ "name" : "Memorial Day",                             "rule" : "Last Monday of May"                    },
-	{ "name" : "Flag Day",                                 "rule" : "June 14th"                             },
-	{ "name" : "Helen Keller Day",                         "rule" : "June 27th"                             },
-	{ "name" : "Father's Day",                             "rule" : "Third Sunday of June"                  },
-	{ "name" : "Independence Day",                         "rule" : "July 4th"                              },
-	{ "name" : "Women's Equality Day",                     "rule" : "August 26th"                           },
-	{ "name" : "Labor Day",                                "rule" : "First Monday of September"             },
-	{ "name" : "Grandparent's Day",                        "rule" : "First Monday of September %Y +6 days"  },
-	{ "name" : "Patriot Day",                              "rule" : "September 11th"                        },
-	{ "name" : "Constitution Day",                         "rule" : "September 17th"                        },
-	{ "name" : "German-American Day",                      "rule" : "October 6th"                           },
-	{ "name" : "Leif Erkson Day",                          "rule" : "October 9th"                           },
-	{ "name" : "Columbus Day",                             "rule" : "Second Monday of October"              },
-	{ "name" : "Halloween",                                "rule" : "October 31st"                          },
-  { "name" : "Election Day",                             "rule" : "First Monday of November %Y +1 day"    },
-  { "name" : "Super Tuesday",                            "rule" : "First Monday of November %ELECTION +1 day" },
-	{ "name" : "Veterans Day",                             "rule" : "November 11th"                         },
-	{ "name" : "Thanksgiving Day",                         "rule" : "Fourth Thursday of November"           },
-	{ "name" : "Black Friday",                             "rule" : "Fourth Thursday of November %Y +1 day" },
-	{ "name" : "Pearl Harbor Remembrance Day",             "rule" : "December 7th"                          },
-	{ "name" : "Immaculate Conception of the Virgin Mary", "rule" : "December 8th"                          },
-	{ "name" : "Christmas Eve",                            "rule" : "December 24th"                         },
-	{ "name" : "Christmas",                                "rule" : "December 25th"                         },
-	{ "name" : "First Day of Kwanzaa",                     "rule" : "December 26th"                         },
-	{ "name" : "Second Day of Kwanzaa",                    "rule" : "December 27th"                         },
-	{ "name" : "Third Day of Kwanzaa",                     "rule" : "December 28th"                         },
-	{ "name" : "Fourth Day of Kwanzaa",                    "rule" : "December 29th"                         },
-	{ "name" : "Fifth Day of Kwanzaa",                     "rule" : "December 30th"                         },
-	{ "name" : "Sixth Day of Kwanzaa",                     "rule" : "December 31st"                         },
-	{ "name" : "New Year's Eve",                           "rule" : "December 31st"                         },
+{
+  "country": {
+    "name": "United States of America",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "types": [
+      "federal",
+      "Christian",
+      "church service",
+      "commercial",
+      "cultural",
+      "ethnic",
+      "winter swimming",
 
-	{ "name" : "Easter",                                   "rule" : "%EASTER"                               },
-	{ "name" : "Ash Wednesday",                            "rule" : "%EASTER -46 days"                      },
-	{ "name" : "Palm Sunday",                              "rule" : "%EASTER -7 days"                       },
-	{ "name" : "Good Friday",                              "rule" : "%EASTER -2 days"                       }
-]
+      "observance",
+      "religious",
+      "orthodox"
+    ],
+    "holidays": [{
+        "name": {
+          "en": "New Year's Day",
+          "es": "Día de Año Nuevo"
+        },
+        "type": "federal",
+        "rule": "January 1st",
+        "valid": {
+          "from": 1870
+        }
+      }, {
+        "name": {
+          "en": "Last Day of Kwanzaa",
+          "es": "Ultimo día de Kwanzaa"
+        },
+        "type": [
+          "cultural",
+          "ethnic"
+        ],
+        "rule": "January 1st",
+        "valid": {
+          "from": 1967
+        }
+      }, {
+        "name": {
+          "en": "Epiphany",
+          "es": "Epifanía"
+        },
+        "type": [
+          "church service",
+          "winter swimming"
+        ],
+        "rule": "January 6th"
+      }, {
+        "name": {
+          "en": "Orthodox Christmas",
+          "es": "Día de Navidad (Ortodoxa) Ortodoxa"
+        },
+        "type": [
+          "Christian",
+          "cultural"
+        ],
+        "rule": "January 7th"
+      }, {
+        "name": {
+          "en": "Martin Luther King, Jr. Day",
+          "es": "Día de Martin Luther King Jr"
+        },
+        "rule": "Third Monday of January",
+        "type": "federal"
+      }, {
+        "name": {
+          "en": "Groundhog Day",
+          "es": "Día de la Marmota"
+        },
+        "type": "cultural",
+        "rule": "February 2nd"
+      }, {
+        "name": {
+          "en": "Valentine's Day",
+          "es": "Día de Valentín"
+        },
+        "type": [
+          "Christian",
+          "cultural",
+          "commercial"
+        ],
+        "rule": "February 14th"
+      }, {
+        "name": {
+          "en": "George Washington's Birthday",
+          "es": "El Cumpleaños de George Washington"
+        },
+        "rule": "February 22nd",
+        "type": "federal",
+        "valid": {
+          "from": 1880,
+          "to": 1970
+        }
+      }, {
+        "name": {
+          "en": "George Washington's Birthday",
+          "es": "El Cumpleaños de George Washington"
+        },
+        "rule": "Third Monday of February",
+        "type": "federal",
+        "valid": {
+          "from": 1971
+        }
+      }, {
+        "name": {
+          "en": "St. Patrick's Day",
+          "es": "Día de San Patricio"
+        },
+        "type": [
+          "ethnic",
+          "Christian"
+        ],
+        "rule": "March 17th"
+      }, {
+        "name": {
+          "en": "April Fools' Day",
+          "es": "Día de los Inocentes"
+        },
+        "type": "cultural",
+        "rule": "April 1st"
+      }, {
+        "name": {
+          "en": "Earth Day",
+          "es": "Día de la Tierra"
+        },
+        "type": "cultural",
+        "rule": "April 22nd",
+        "valid": {
+          "from": 1970
+        }
+      }, {
+        "name": {
+          "en": "National Arbor Day",
+          "es": "Día Nacional Árbol"
+        },
+        "type": "cultural",
+        "rule": "Last Friday of April"
+      }, {
+        "name": {
+          "en": "May Day",
+          "es": "May Day"
+        },
+        "type": "cultural",
+        "rule": "May 1st"
+      }, {
+        "name": {
+          "en": "Star Wars Day",
+          "es": "Día de Star Wars"
+        },
+        "type": [
+          "secular",
+          "commercial"
+        ],
+        "rule": "May 4th"
+      }, {
+        "name": {
+          "en": "Cinco de Mayo",
+          "es": "Cinco de Mayo"
+        },
+        "type": "cultural",
+        "rule": "May 5th"
+      }, {
+        "name": {
+          "en": "Mother's Day",
+          "es": "Día de la Madre"
+        },
+        "type": "secular",
+        "rule": "Second Sunday of May"
+      }, {
+        "name": {
+          "en": "Memorial Day",
+          "es": "Día Conmemorativo"
+        },
+        "type": "federal",
+        "rule": "Last Monday of May"
+      }, {
+        "name": {
+          "en": "Flag Day",
+          "es": "Día de la Bandera"
+        },
+        "type": "observance",
+        "rule": "June 14th",
+        "valid": {
+          "from": 1916
+        }
+      }, {
+        "name": {
+          "en": "Helen Keller Day",
+          "es": "Helen Keller Día"
+        },
+        "type": "observance",
+        "rule": "June 27th",
+        "valid": {
+          "from": 1980
+        }
+      }, {
+        "name": {
+          "en": "Father's Day",
+          "es": "Día del Padre"
+        },
+        "type": "commercial",
+        "rule": "Third Sunday of June"
+      },
+
+///////////////////////////////////////////////////////////////////////////////
+      {
+        "name": "Independence Day",
+        "rule": "July 4th",
+        "type": "federal",
+        "valid": {
+          "from": 1776
+        }
+        // TODO OBSERVED
+      }, {
+        "name": "Women's Equality Day",
+        "rule": "August 26th"
+      }, {
+        "name": "Labor Day",
+        "rule": "First Monday of September",
+        "type": "federal"
+      }, {
+        "name": "Grandparent's Day",
+        "rule": "First Monday of September %Y +6 days"
+      }, {
+        "name": "Patriot Day",
+        "rule": "September 11th"
+      }, {
+        "name": "Constitution Day",
+        "rule": "September 17th"
+      }, {
+        "name": "German-American Day",
+        "rule": "October 6th"
+      }, {
+        "name": "Leif Erkson Day",
+        "rule": "October 9th"
+      }, {
+        "name": "Columbus Day",
+        "rule": "Second Monday of October",
+        "type": "federal"
+      }, {
+        "name": "Halloween",
+        "rule": "October 31st"
+      }, {
+        "name": "Election Day",
+        "rule": "First Monday of November %Y +1 day"
+      }, {
+        "name": "Super Tuesday",
+        "rule": "First Monday of November %ELECTION +1 day"
+      }, {
+        "name": "Veterans Day",
+        "rule": "November 11th"
+      }, {
+        "name": "Thanksgiving Day",
+        "rule": "Fourth Thursday of November",
+        "type": "federal"
+      }, {
+        "name": "Black Friday",
+        "rule": "Fourth Thursday of November %Y +1 day"
+      }, {
+        "name": "Pearl Harbor Remembrance Day",
+        "rule": "December 7th"
+      }, {
+        "name": "Immaculate Conception of the Virgin Mary",
+        "rule": "December 8th"
+      }, {
+        "name": "Christmas Eve",
+        "rule": "December 24th"
+      }, {
+        "name": "Christmas",
+        "rule": "December 25th",
+        "type": "federal"
+      }, {
+        "name": "First Day of Kwanzaa",
+        "rule": "December 26th"
+      }, {
+        "name": "Second Day of Kwanzaa",
+        "rule": "December 27th"
+      }, {
+        "name": "Third Day of Kwanzaa",
+        "rule": "December 28th"
+      }, {
+        "name": "Fourth Day of Kwanzaa",
+        "rule": "December 29th"
+      }, {
+        "name": "Fifth Day of Kwanzaa",
+        "rule": "December 30th"
+      }, {
+        "name": "Sixth Day of Kwanzaa",
+        "rule": "December 31st"
+      }, {
+        "name": "New Year's Eve",
+        "rule": "December 31st"
+      }, {
+        "name": "Easter",
+        "rule": "%EASTER"
+      }, {
+        "name": "Ash Wednesday",
+        "rule": "%EASTER -46 days"
+      }, {
+        "name": "Palm Sunday",
+        "rule": "%EASTER -7 days"
+      }, {
+        "name": "Good Friday",
+        "rule": "%EASTER -2 days"
+      }
+    ]
+  }
+}
