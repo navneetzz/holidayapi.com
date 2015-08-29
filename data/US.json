@@ -5,86 +5,61 @@
       "en",
       "es"
     ],
-    "types": [
-      "federal",
-      "Christian",
-      "church service",
-      "commercial",
-      "cultural",
-      "ethnic",
-      "winter swimming",
-
-      "observance",
-      "religious",
-      "orthodox"
-    ],
     "holidays": [{
         "name": {
           "en": "New Year's Day",
           "es": "Día de Año Nuevo"
         },
-        "type": "federal",
         "rule": "January 1st",
-        "valid": {
-          "from": 1870
-        }
+        "federal": true,
+        "first": 1870
       }, {
         "name": {
           "en": "Last Day of Kwanzaa",
           "es": "Ultimo día de Kwanzaa"
         },
-        "type": [
-          "cultural",
-          "ethnic"
-        ],
         "rule": "January 1st",
-        "valid": {
-          "from": 1967
-        }
+        "first": 1967
       }, {
         "name": {
           "en": "Epiphany",
           "es": "Epifanía"
         },
-        "type": [
-          "church service",
-          "winter swimming"
-        ],
         "rule": "January 6th"
       }, {
         "name": {
           "en": "Orthodox Christmas",
           "es": "Día de Navidad (Ortodoxa) Ortodoxa"
         },
-        "type": [
-          "Christian",
-          "cultural"
-        ],
         "rule": "January 7th"
+      }, {
+        "name": {
+          "en": "The Eighth",
+          "es": "El Octavo"
+        },
+        "rule": "January 8th",
+        "federal": true,
+        "observed": true,
+        "first": 1828,
+        "last": 1861
       }, {
         "name": {
           "en": "Martin Luther King, Jr. Day",
           "es": "Día de Martin Luther King Jr"
         },
         "rule": "Third Monday of January",
-        "type": "federal"
+        "federal": true
       }, {
         "name": {
           "en": "Groundhog Day",
           "es": "Día de la Marmota"
         },
-        "type": "cultural",
         "rule": "February 2nd"
       }, {
         "name": {
           "en": "Valentine's Day",
           "es": "Día de Valentín"
         },
-        "type": [
-          "Christian",
-          "cultural",
-          "commercial"
-        ],
         "rule": "February 14th"
       }, {
         "name": {
@@ -92,173 +67,228 @@
           "es": "El Cumpleaños de George Washington"
         },
         "rule": "February 22nd",
-        "type": "federal",
-        "valid": {
-          "from": 1880,
-          "to": 1970
-        }
+        "federal": true,
+        "observed": true,
+        "first": 1880,
+        "last": 1970
       }, {
         "name": {
           "en": "George Washington's Birthday",
           "es": "El Cumpleaños de George Washington"
         },
         "rule": "Third Monday of February",
-        "type": "federal",
-        "valid": {
-          "from": 1971
-        }
+        "federal": true,
+        "observed": true,
+        "first": 1971
       }, {
         "name": {
           "en": "St. Patrick's Day",
           "es": "Día de San Patricio"
         },
-        "type": [
-          "ethnic",
-          "Christian"
-        ],
         "rule": "March 17th"
       }, {
         "name": {
           "en": "April Fools' Day",
           "es": "Día de los Inocentes"
         },
-        "type": "cultural",
         "rule": "April 1st"
       }, {
         "name": {
           "en": "Earth Day",
           "es": "Día de la Tierra"
         },
-        "type": "cultural",
         "rule": "April 22nd",
-        "valid": {
-          "from": 1970
-        }
+        "first": 1970
       }, {
         "name": {
           "en": "National Arbor Day",
           "es": "Día Nacional Árbol"
         },
-        "type": "cultural",
         "rule": "Last Friday of April"
       }, {
         "name": {
           "en": "May Day",
           "es": "May Day"
         },
-        "type": "cultural",
         "rule": "May 1st"
       }, {
         "name": {
           "en": "Star Wars Day",
           "es": "Día de Star Wars"
         },
-        "type": [
-          "secular",
-          "commercial"
-        ],
         "rule": "May 4th"
       }, {
         "name": {
           "en": "Cinco de Mayo",
           "es": "Cinco de Mayo"
         },
-        "type": "cultural",
         "rule": "May 5th"
       }, {
         "name": {
           "en": "Mother's Day",
           "es": "Día de la Madre"
         },
-        "type": "secular",
         "rule": "Second Sunday of May"
       }, {
         "name": {
           "en": "Memorial Day",
           "es": "Día Conmemorativo"
         },
-        "type": "federal",
-        "rule": "Last Monday of May"
+        "rule": "May 30th",
+        "federal": true,
+        "observed": true,
+        "first": 1868,
+        "last": 1970
+      }, {
+        "name": {
+          "en": "Memorial Day",
+          "es": "Día Conmemorativo"
+        },
+        "rule": "Last Monday of May",
+        "federal": true,
+        "first": 1971
       }, {
         "name": {
           "en": "Flag Day",
           "es": "Día de la Bandera"
         },
-        "type": "observance",
         "rule": "June 14th",
-        "valid": {
-          "from": 1916
-        }
+        "first": 1916
       }, {
         "name": {
           "en": "Helen Keller Day",
           "es": "Helen Keller Día"
         },
-        "type": "observance",
         "rule": "June 27th",
-        "valid": {
-          "from": 1980
-        }
+        "first": 1980
       }, {
         "name": {
           "en": "Father's Day",
           "es": "Día del Padre"
         },
-        "type": "commercial",
         "rule": "Third Sunday of June"
-      },
-
-///////////////////////////////////////////////////////////////////////////////
-      {
-        "name": "Independence Day",
+      }, {
+        "name": {
+          "en": "Independence Day",
+          "es": "Dia de Independencia"
+        },
         "rule": "July 4th",
-        "type": "federal",
-        "valid": {
-          "from": 1776
-        }
-        // TODO OBSERVED
+        "federal": true,
+        "observed": true,
+        "first": 1776
       }, {
-        "name": "Women's Equality Day",
-        "rule": "August 26th"
+        "name": {
+          "en": "Victory Day",
+          "es": "Día de Victoria"
+        },
+        "rule": "Third Monday of August",
+        "federal": true,
+        "first": 1948,
+        "last": 1975
       }, {
-        "name": "Labor Day",
+        "name": {
+          "en": "Women's Equality Day",
+          "es": "Día de la Igualdad de la Mujer"
+        },
+        "rule": "August 26th",
+        "first": 1972
+      }, {
+        "name": {
+          "en": "Labor Day",
+          "es": "Día Laboral"
+        },
         "rule": "First Monday of September",
-        "type": "federal"
+        "federal": true,
+        "first": 1894
       }, {
-        "name": "Grandparent's Day",
-        "rule": "First Monday of September %Y +6 days"
+        "name": {
+          "en": "National Grandparent's Day",
+          "es": "Día Nacional de los Abuelos"
+        },
+        "rule": "First Monday of September %Y +6 days",
+        "first": 1978
       }, {
-        "name": "Patriot Day",
-        "rule": "September 11th"
+        "name": {
+          "en": "National Day of Prayer and Remembrance for the Victims of the Terrorist Attacks on September 11, 2001",
+          "es": "Día Nacional de Oración y Recuerdo de las Víctimas de los atentados terroristas del 11 de septiembre 2001"
+        },
+        "rule": "September 14th",
+        "first": 2001,
+        "last": 2001
       }, {
-        "name": "Constitution Day",
-        "rule": "September 17th"
+        "name": {
+          "en": "Patriot Day",
+          "es": "Día de los Patriotas"
+        },
+        "rule": "September 11th",
+        "first": 2002
       }, {
-        "name": "German-American Day",
-        "rule": "October 6th"
+        "name": {
+          "en": "I am an American Day",
+          "es": "Soy un Día de las Américas"
+        },
+        "rule": "Third Sunday in May",
+        "first": 1944,
+        "last": 1951
       }, {
-        "name": "Leif Erkson Day",
-        "rule": "October 9th"
+        "name": {
+          "en": "Citizenship Day",
+          "es": "Día de la Ciudadanía"
+        },
+        "rule": "September 17th",
+        "observed": true,
+        "first": 1952
       }, {
-        "name": "Columbus Day",
+        "name": {
+          "en": "German-American Day",
+          "es": "Alemán-Americano Día"
+        },
+        "rule": "October 6th",
+        "first": 1983
+      }, {
+        "name": {
+          "en": "Leif Erikson Day",
+          "es": "Leif Erikson Día"
+        },
+        "rule": "October 9th",
+        "first": 1963
+      }, {
+        "name": {
+          "en": "Columbus Day",
+          "es": "Día de la Raza"
+        },
         "rule": "Second Monday of October",
-        "type": "federal"
+        "federal": true,
+        "observed": true,
+        "first": 1937
       }, {
-        "name": "Halloween",
+        "name": {
+          "en": "Halloween",
+          "es": "Halloween"
+        },
         "rule": "October 31st"
       }, {
-        "name": "Election Day",
-        "rule": "First Monday of November %Y +1 day"
+        "name": {
+          "en": "Election Day",
+          "es": "Día de Elecciones"
+        },
+        "rule": "First Monday of November %Y +1 day",
+        "first": 1845
       }, {
-        "name": "Super Tuesday",
-        "rule": "First Monday of November %ELECTION +1 day"
-      }, {
+        "name": "Presidential Election",
+        "rule": "First Monday of November %ELECTION +1 day",
+        "first": 1845
+      },
+      
+      
+      
+      {
         "name": "Veterans Day",
         "rule": "November 11th"
       }, {
         "name": "Thanksgiving Day",
         "rule": "Fourth Thursday of November",
-        "type": "federal"
+        "federal": true
       }, {
         "name": "Black Friday",
         "rule": "Fourth Thursday of November %Y +1 day"
@@ -274,7 +304,7 @@
       }, {
         "name": "Christmas",
         "rule": "December 25th",
-        "type": "federal"
+        "federal": true
       }, {
         "name": "First Day of Kwanzaa",
         "rule": "December 26th"
