@@ -119,7 +119,9 @@ class v1
                     throw new \Exception('The supplied country (' . $country . ') is not supported at this time.');
                 }
 
-                $country_holidays    = json_decode(file_get_contents($country_file), true);
+                $country_data        = json_decode(file_get_contents($country_file), true);
+                $country_country     = $country_data['country'];
+                $country_holidays    = $country_country['holidays'];
                 $calculated_holidays = [];
 
                 foreach ($country_holidays as $country_holiday) {

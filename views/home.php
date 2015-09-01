@@ -31,11 +31,11 @@
                     <h4>Required</h4>
                     <div class="row">
                         <div class="col-xs-3"><code>country</code></div>
-                        <div class="col-xs-9"><a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO 3166-1 alpha-2</a> format (BE, BR, FR, GB, NO or US)</div>
+                        <div class="col-xs-9"><a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1 alpha-2</a> format (BE, BR, FR, GB, NO or US)</div>
                     </div>
                     <div class="row">
                         <div class="col-xs-3"><code>year</code></div>
-                        <div class="col-xs-9"><a href="http://en.wikipedia.org/wiki/ISO_8601#Years" target="_blank">ISO 8601</a> format (CCYY)</div>
+                        <div class="col-xs-9"><a href="http://en.wikipedia.org/wiki/ISO_8601#Years">ISO 8601</a> format (CCYY)</div>
                     </div>
 
                     <h4>Optional</h4>
@@ -48,16 +48,25 @@
                         <div class="col-xs-9">1 or 2 digit day (1-31 depending on the month)</div>
                     </div>
                     <div class="row">
+                        <div class="col-xs-3"><code>language</code></div>
+                        <div class="col-xs-9"><a href="http://en.wikipedia.org/wiki/ISO_639-1">ISO 639-1</a> format, return holiday names in specific language (if available)</div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3"><code>federal</code></div>
+                        <div class="col-xs-9">boolean, return only federal holidays</div>
+                    </div>
+                    <div class="row">
                         <div class="col-xs-3"><code>previous</code></div>
-                        <div class="col-xs-9">returns the previous holidays based on the date</div>
+                        <div class="col-xs-9">boolean, return previous holidays based on the date</div>
                     </div>
                     <div class="row">
                         <div class="col-xs-3"><code>upcoming</code></div>
-                        <div class="col-xs-9">returns the upcoming holidays based on the date</div>
+                        <div class="col-xs-9">boolean, return upcoming holidays based on the date</div>
                     </div>
                     <div class="row">
                         <div class="col-xs-3"><code>pretty</code></div>
-                        <div class="col-xs-9">prettifies returned results</div>
+                        <div class="col-xs-9">boolean, prettifies returned results</div>
                     </div>
                 </div>
 
