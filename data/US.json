@@ -275,68 +275,161 @@
         "rule": "First Monday of November %Y +1 day",
         "first": 1845
       }, {
-        "name": "Presidential Election",
+        "name": {
+          "en": "Presidential Election",
+          "es": "Elección Presidencial"
+        },
         "rule": "First Monday of November %ELECTION +1 day",
         "first": 1845
-      },
-      
-      
-      
-      {
-        "name": "Veterans Day",
-        "rule": "November 11th"
       }, {
-        "name": "Thanksgiving Day",
+        "name": {
+          "en": "Armistice Day",
+          "es": "Día del Armisticio"
+        },
+        "rule": "November 11th",
+        "first": 1919,
+        "last": 1937
+      }, {
+        "name": {
+          "en": "Armistice Day",
+          "es": "Día del Armisticio"
+        },
+        "rule": "November 11th",
+        "federal": true,
+        "first": 1938,
+        "last": 1953
+      }, {
+        "name": {
+          "en": "Veterans Day",
+          "es": "Día de los Veteranos"
+        },
+        "federal": true,
+        "observed": true,
+        "rule": "November 11th",
+        "first": 1954,
+        "last": 1970
+      }, {
+        "name": {
+          "en": "Veterans Day",
+          "es": "Día de los Veteranos"
+        },
+        "federal": true,
+        "rule": "Fourth Monday of October",
+        "first": 1971,
+        "last": 1974
+      }, {
+        "name": {
+          "en": "Veterans Day",
+          "es": "Día de los Veteranos"
+        },
+        "federal": true,
+        "observed": true,
+        "rule": "November 11th",
+        "first": 1975
+      }, {
+        "name": {
+          "en": "Thanksgiving Day",
+          "es": "Día de Acción de Gracias"
+        },
         "rule": "Fourth Thursday of November",
         "federal": true
       }, {
-        "name": "Black Friday",
+        "name": {
+          "en": "Black Friday",
+          "es": "Viernes Negro"
+        },
         "rule": "Fourth Thursday of November %Y +1 day"
       }, {
-        "name": "Pearl Harbor Remembrance Day",
+        "name": {
+          "en": "Pearl Harbor Remembrance Day",
+          "es": "Pearl Harbor Día del Recuerdo"
+        },
         "rule": "December 7th"
       }, {
-        "name": "Immaculate Conception of the Virgin Mary",
+        "name": {
+          "en": "Immaculate Conception of the Virgin Mary",
+          "es": "Inmaculada Concepción de la Virgen María"
+        },
         "rule": "December 8th"
       }, {
-        "name": "Christmas Eve",
+        "name": {
+          "en": "Christmas Eve",
+          "es": "Nochebuena"
+        },
         "rule": "December 24th"
       }, {
-        "name": "Christmas",
+        "name": {
+          "en": "Christmas Day",
+          "es": "Día de Navidad"
+        },
         "rule": "December 25th",
         "federal": true
       }, {
-        "name": "First Day of Kwanzaa",
+        "name": {
+          "en": "First Day of Kwanzaa",
+          "es": "Primer día de Kwanzaa"
+        },
         "rule": "December 26th"
       }, {
-        "name": "Second Day of Kwanzaa",
+        "name": {
+          "en": "Second Day of Kwanzaa",
+          "es": "Segundo día de Kwanzaa"
+        },
         "rule": "December 27th"
       }, {
-        "name": "Third Day of Kwanzaa",
+        "name": {
+          "en": "Third Day of Kwanzaa",
+          "es": "Tercera día de Kwanzaa"
+        },
         "rule": "December 28th"
       }, {
-        "name": "Fourth Day of Kwanzaa",
+        "name": {
+          "en": "Fourth Day of Kwanzaa",
+          "es": "Cuarta día de Kwanzaa"
+        },
         "rule": "December 29th"
       }, {
-        "name": "Fifth Day of Kwanzaa",
+        "name": {
+          "en": "Fifth Day of Kwanzaa",
+          "es": "Quinto día de Kwanzaa"
+        },
         "rule": "December 30th"
       }, {
-        "name": "Sixth Day of Kwanzaa",
+        "name": {
+          "en": "Sixth Day of Kwanzaa",
+          "es": "Sexto día de Kwanzaa"
+        },
         "rule": "December 31st"
       }, {
-        "name": "New Year's Eve",
-        "rule": "December 31st"
+        "name": {
+          "en": "New Year's Eve",
+          "es": "Nochevieja"
+        },
+        "rule": "December 31st",
+        "federal": true
       }, {
-        "name": "Easter",
+        "name": {
+          "en": "Easter",
+          "es": "Pascua"
+        },
         "rule": "%EASTER"
       }, {
-        "name": "Ash Wednesday",
+        "name": {
+          "en": "Ash Wednesday",
+          "es": "Miércoles de Ceniza"
+        },
         "rule": "%EASTER -46 days"
       }, {
-        "name": "Palm Sunday",
+        "name": {
+          "en": "Palm Sunday",
+          "es": "Domingo de Ramos"
+        },
         "rule": "%EASTER -7 days"
       }, {
-        "name": "Good Friday",
+        "name": {
+          "en": "Good Friday",
+          "es": "Buen Viernes"
+        },
         "rule": "%EASTER -2 days"
       }
     ]
