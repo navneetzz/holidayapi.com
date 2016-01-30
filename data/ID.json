@@ -1,0 +1,48 @@
+{
+  "country": {
+    "name": "Indonesia",
+    "languages": [
+      "en",
+      "id"
+    ],
+    "holidays": [{
+        "name": {
+          "en": "New Year's Day",
+          "id": "Tahun Baru"
+        },
+        "rule": "January 1st"
+      }, {
+        "name": {
+          "en": "Chinese New Year",
+          "id": "Tahun Baru Imlek"
+        },
+        "rule": "February 8th"
+      }, {
+        "name": {
+          "en": "May Day",
+          "id": "Hari Buruh"
+        },
+        "rule": "May 1st"
+      }, {
+        "name": {
+          "en": "Good Friday",
+          "id": "Jumat Agung"
+        },
+        "rule": "%EASTER -2 days"
+      }, {
+        "name": {
+          "en": "Indonesian Independence Day",
+          "id": "Hari Kemerdekaan Indonesia"
+        },
+        "rule": "August 17th",
+        "first": 1945
+      }, {
+        "name": {
+          "en": "Christmas Day",
+          "id": "Hari Raya Natal"
+        },
+        "rule": "December 25th"
+      }
+    ]
+  }
+}
