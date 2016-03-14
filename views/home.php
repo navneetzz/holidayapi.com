@@ -22,7 +22,7 @@
 
                 <div class="well">
                     <h2>Usage example</h2>
-                    <p>To retrieve a list of holidays, simply make a GET request to <a href="/v1/holidays?country=ES&amp;year=2016" target="_blank">/v1/holidays</a></p>
+                    <p>To retrieve a list of holidays, simply make a GET request to <a href="/v1/holidays?country=US&year=<?= date('Y'); ?>&month=<?= date('m'); ?>" target="_blank">/v1/holidays</a></p>
                 </div>
 
                 <div class="well">
@@ -31,7 +31,7 @@
                     <h4>Required</h4>
                     <div class="row">
                         <div class="col-xs-3"><code>country</code></div>
-                        <div class="col-xs-9"><a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO 3166-1 alpha-2</a> format (BE, BR, CA, CZ, DE, FR, GB, GT, NO, PL, SK, SI or US)</div>
+                        <div class="col-xs-9"><a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO 3166-1 alpha-2</a> format (BE, BG, BR, CA, CZ, DE, ES, FR, GB, GT, NL, NO, PL, SI, SK or US)</div>
                     </div>
                     <div class="row">
                         <div class="col-xs-3"><code>year</code></div>
