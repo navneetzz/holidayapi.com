@@ -9,6 +9,6 @@
 { "name" : "Spring Bank Holiday",               "rule" : "Last Monday of May"             },
 { "name" : "Fathers Day",                       "rule" : "Third Sunday of June"           },
 { "name" : "Summer Bank Holiday",               "rule" : "Last Monday of August"          },
-{ "name" : "Christmas (possibly in lieu)",      "rule" : "24 December %Y +1 weekday"      },
-{ "name" : "Boxing Day (possibly in lieu)",     "rule" : "24 December %Y +2 weekday"      }
+{ "name" : "Christmas (possibly in lieu)",      "rule" : "24 December +1 weekday"      },
+{ "name" : "Boxing Day (possibly in lieu)",     "rule" : "24 December +2 weekday"      }
 ]
