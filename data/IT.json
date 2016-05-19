@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Capodanno",
+    "rule": "January 1st"
+  },
+  {
+    "name": "Epifania",
+    "rule": "January 6th"
+  },
+  {
+    "name": "Pasqua",
+    "rule": "%EASTER"
+  },
+  {
+    "name": "Lunedì dell'Angelo",
+    "rule": "%EASTER + 1 days"
+  },
+  {
+    "name": "Festa della Liberazione",
+    "rule": "April 25th"
+  },
+  {
+    "name": "Festa dei lavoratori",
+    "rule": "May 1st"
+  },
+  {
+    "name": "Pentecoste",
+    "rule": "%EASTER + 50 days"
+  },
+  {
+    "name": "Festa della Repubblica",
+    "rule": "June 2nd"
+  },
+  {
+    "name": "Assunzione di Maria Vergine",
+    "rule": "August 15th"
+  },
+  {
+    "name": "Tutti i santi ",
+    "rule": "November 1st"
+  },
+  {
+    "name": "Immacolata Concezione",
+    "rule": "December 8th"
+  },
+  {
+    "name": "Natale",
+    "rule": "December 25th"
+  },
+  {
+    "name": "Santo Stefano",
+    "rule": "December 26th"
+  }
+]

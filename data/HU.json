@@ -1,0 +1,13 @@
+[
+{ "name" : "Újév",                              "rule" : "January 1st"                    },
+{ "name" : "Húsvét hétfő",                      "rule" : "%EASTER +1 day"                 },
+{ "name" : "Nagypéntek",                        "rule" : "%EASTER -2 days"                },
+{ "name" : "Nemzeti ünnep",                     "rule" : "March 15th"                     }, 
+{ "name" : "Munka ünnepe",                      "rule" : "May 1st"                        },
+{ "name" : "Pünkösd hétfő",                     "rule" : "%EASTER +50 days"               },
+{ "name" : "Államalapítás ünnepe",              "rule" : "August 20th"                    },
+{ "name" : "Nemzeti ünnep",                     "rule" : "October 23rd"                   }, 
+{ "name" : "Mindenszentek",                     "rule" : "November 1st"                   },
+{ "name" : "Karácsony",                         "rule" : "December 25th"                  },
+{ "name" : "Karácsony másnapja",                "rule" : "December 26th"                  }
+]

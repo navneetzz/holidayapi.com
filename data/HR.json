@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Nova godina",
+    "rule": "January 1st"
+  },
+  {
+    "name": "Sveta tri kralja",
+    "rule": "January 6th"
+  },
+  {
+    "name": "Uskrs",
+    "rule": "%EASTER"
+  },
+  {
+    "name": "Uskrsni ponedjeljak",
+    "rule": "%EASTER + 1 days"
+  },
+  {
+    "name": "Tijelovo",
+    "rule": "%EASTER + 59 days"
+  },
+  {
+    "name": "Praznik rada",
+    "rule": "May 1st"
+  },
+  {
+    "name": "Dan antifašističke borbe ",
+    "rule": "June 22nd"
+  },
+  {
+    "name": "Dan državnosti ",
+    "rule": "June 25th"
+  },
+  {
+    "name": "Dan pobjede i domovinske zahvalnosti i Dan hrvatskih branitelja",
+    "rule": "August 5th"
+  },
+  {
+    "name": "Velika Gospa",
+    "rule": "August 15th"
+  },
+  {
+    "name": "Dan neovisnosti",
+    "rule": "October 8th"
+  },
+  {
+    "name": "Svi sveti",
+    "rule": "November 1st"
+  },
+  {
+    "name": "Božić ",
+    "rule": "December 25th"
+  },
+  {
+    "name": "Sv. Stjepan",
+    "rule": "December 26th"
+  }
+]
