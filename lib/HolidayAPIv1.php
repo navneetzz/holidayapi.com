@@ -123,9 +123,7 @@ class v1
                 $calculated_holidays = [];
 
                 foreach ($country_holidays as $country_holiday) {
-                    if (strstr($country_holiday['rule'], '%Y')) {
-                        $rule = str_replace('%Y', $year, $country_holiday['rule']);
-                    } elseif (strstr($country_holiday['rule'], '%EASTER')) {
+                    if (strstr($country_holiday['rule'], '%EASTER')) {
                         $rule = str_replace('%EASTER', date('Y-m-d', strtotime($year . '-03-21 +' . easter_days($year) . ' days')), $country_holiday['rule']);
                     } elseif (in_array($country, ['BR', 'US']) && strstr($country_holiday['rule'], '%ELECTION')) {
                         switch ($country) {
@@ -142,6 +140,8 @@ class v1
                         } else {
                             $rule = false;
                         }
+                    } elseif (strstr($country_holiday['rule'], '+')) {
+                        $rule = substr_replace($country_holiday['rule'], ' ' . $year . ' ', strpos($country_holiday['rule'], '+') -1, 0);
                     } else {
                         $rule = $country_holiday['rule'] . ' ' . $year;
                     }
