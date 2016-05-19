@@ -4,10 +4,10 @@
         <title>Holiday API</title>
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="/css/styles.min.css">
+        <link rel="shortcut icon" href="/favicon.ico?v1">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="viewport" content="width=device-width, user-scalable=no">
         <script src="//load.sumome.com/" data-sumo-site-id="54926a714a38c69d4b5402706a836ffaab038eea6a977d2445eee4623d9712c9" async></script>
-
     </head>
     <body>
         <div class="container">
