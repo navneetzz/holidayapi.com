@@ -1,0 +1,131 @@
+[
+        { "name": "New Year's Day",  
+        "rule": "January 1st"
+    }, { 
+        "name": "Makar Sankranti",     
+        "rule": "January 14th" 
+    }, { 
+        "name": "Pongal",     
+        "rule": "January 15th" 
+    }, { 
+        "name": "Guru Govind Singh Jayanti",    
+        "rule": "January 16th" 
+    }, {
+        "name": "Republic Day",
+        "rule": "January 26th" 
+    }, { 
+        "name": "Vasant Panchami",
+        "rule": "February 12th" 
+    }, {
+        "name": "Shivaji Jayanti",
+        "rule": "February 19th" 
+    }, { 
+        "name": "Guru Ravidas Jayanti",
+        "rule": "February 22nd" 
+    }, {
+        "name": "Maharishi Dayanand Saraswati Jayanti",
+        "rule": "March 4th" 
+    }, {
+        "name": "Maha Shivaratri/Shivaratri",
+        "rule": "March 7th" 
+    }, {
+        "name": "Holika Dahana",
+        "rule": "March 23th" 
+    }, {
+        "name": "Dolyatra",
+        "rule": "March 24th" 
+    }, {
+        "name": "Good Friday",
+        "rule": "March 25th" 
+    }, {
+        "name": "Easter Day",
+        "rule": "March 27th" 
+    }, {
+        "name": "Chaitra Sukhladi",
+        "rule": "April 8th" 
+    }, {
+        "name": "Vaisakhi",
+        "rule": "April 13th" 
+    }, {
+        "name": "Ambedkar Jayanti",
+        "rule": "April 14th" 
+    }, {
+        "name": "Rama Navami",
+        "rule": "April 15th" 
+    }, {
+        "name": "Mahavir Jayanti",
+        "rule": "April 20th" 
+    }, {
+        "name": "Hazarat Ali's Birthday",
+        "rule": "April 21st" 
+    }, {
+        "name": "Birthday of Ravindranath",
+        "rule": "May 8th" 
+    }, {
+        "name": "Buddha Purnima/Vesak",
+        "rule": "May 21st" 
+    }, {
+        "name": "Jamat Ul-Vida",
+        "rule": "July 1st" 
+    }, {
+        "name": "Rath Yatra",
+        "rule": "July 6th" 
+    }, {
+        "name": "Ramzan Id/Eid-ul-Fitar",
+        "rule": "July 8th" 
+    }, {
+        "name": "Independence Day",
+        "rule": "August 15th" 
+    }, {
+        "name": "Raksha Bandhan (Rakhi)",
+        "rule": "August 18th" 
+    }, {
+        "name": "Janmashtami",
+        "rule": "August 25th" 
+    }, {
+        "name": "Ganesh Chaturthi/Vinayaka Chaturthi",
+        "rule": "September 5th" 
+    }, {
+        "name": "Onam",
+        "rule": "September 14th" 
+    }, {
+        "name": "Mahatma Gandhi Jayanti",
+        "rule": "October 2nd" 
+    }, {
+        "name": "Dussehra (Maha Navami)",
+        "rule": "October 11th" 
+    }, {
+        "name": "Muharram/Ashura",
+        "rule": "October 12th" 
+    }, {
+        "name": "Maharishi Valmiki Jayanti",
+        "rule": "October 16th" 
+    }, {
+        "name": "Karaka Chaturthi (Karva Chauth)",
+        "rule": "October 19th" 
+    }, {
+        "name": "Diwali/Deepavali",
+        "rule": "October 30th" 
+    }, {
+        "name": "Govardhan Puja",
+        "rule": "October 31st" 
+    }, {
+        "name": "Bhai Duj",
+        "rule": "November 1st" 
+    }, {
+        "name": "Chhat Puja",
+        "rule": "November 6th" 
+    }, {
+        "name": "Guru Tegh Bahadur's Martyrdom Day",
+        "rule": "November 24th" 
+    }, {
+        "name": "Milad un-Nabi/Id-e-Milad",
+        "rule": "December 13th" 
+    }, {
+        "name": "Christmas",
+        "rule": "December 25th" 
+    }, {
+        "name": "New Year's Eve",
+        "rule": "December 31st" 
+    }
+]
